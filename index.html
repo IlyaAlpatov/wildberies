@@ -4,30 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildberries</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
 
 </head>
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <header class="header">
-                <img src="../img/Willberries.svg" alt="Willberries">
-
-                <nav class="navigation">
-                    <a class="navigation-link" href="">Womens</a>
-                    <a class="navigation-link" href="">Mens</a>
-                    <a class="navigation-link" href="">Goods</a>
-                    <a class="navigation-link" href="">Accessories</a>
-                    <a class="navigation-link" href="">Brands</a>
-                    <a class="navigation-link" href="">Blog</a>
-                </nav>
-
-                <span class="navigation-basket">Cart</span>
-            </header>
+    <header class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-2">
+                <a href="" class="logo-link">
+                    <img src="../img/Willberries.svg" alt="Willberries" class="logo-img">
+                </a>
+            </div>
+            <div class="col-6">
+                <ul class="navigation d-flex justify-content-around">
+                    <li class="navigation-item">
+                        <a href="" class="navigation-link">Womens</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="" class="navigation-link">Mens</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="" class="navigation-link">Goods</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="" class="navigation-link">Accessories</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="" class="navigation-link">Brands</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="" class="navigation-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 d-flex justify-content-end">
+                <button class="button">
+                    <img src="../img/Cart.svg" alt="Icon-cart" class="button-icon">
+                    <span class="button-text">Cart</span>
+                </button>
+            </div>
         </div>
-    </div>
+    </header>
 </body>
 </html>

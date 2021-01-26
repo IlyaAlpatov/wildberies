@@ -1,54 +1,36 @@
-body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-}
-
-.container {
-    max-width: 1366px;
-}
-
-.wrapper {
-    margin: 0 auto;
-    max-width: 1158px;
-    
-}
-
-/* Навигация */
-
-.header {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navigation {
+    list-style: none;
+    padding: 0;
 }
 
 .navigation-link {
-    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 900;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    text-decoration: none;
     color: #939699;
 }
 
-.navigation-link:last-of-type {
-    padding-right: 0;
-}
-
-.navigation-basket {
-    display: flex;
-    align-items: center;
-    width: 95px;
-    height: 40px;
+.button {
+    background: #4592FF;
     border-radius: 20px;
-    background: #4592FF url("../img/Cart.svg") 20px 11.5px no-repeat;
-
+    border: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 20px;
+    display: flex;
+    font-style: normal;
     font-weight: 900;
     font-size: 14px;
     line-height: 20px;
-    color: #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+}
 
+.button-icon {
+    margin-right: 10px;
 }
