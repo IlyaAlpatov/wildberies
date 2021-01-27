@@ -79,10 +79,30 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
     margin-bottom: 40px;
 }
 
+.slider {
+    position: relative;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.slider-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 /*  */
 
 .offers {
     margin-top: 50px;
+}
+
+.offer {
+    margin-bottom: 30px;
 }
 
 .offer-1 {
@@ -100,6 +120,10 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
     background: url('../img/sneakers.png') no-repeat;
     color: #FFFFFF;
     border-radius: 3%;
+}
+
+.offer-3 {
+    background: #CCD5E6 url("../img/blouse.png") no-repeat;
 }
 
 .offer-title {
