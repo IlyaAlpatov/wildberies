@@ -1,11 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
+header {
+    padding: 15px 0;
+}
+
 .navigation {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .navigation-link {
@@ -97,68 +106,89 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
 }
 /*  */
 
-.offers {
-    margin-top: 50px;
-}
-
 .offer {
-    margin-bottom: 30px;
+    min-height: 370px;
+    border-radius: 10px;
 }
 
 .offer-1 {
-    max-width: 563px;
-    height: 370px;
-    background: url('../img/bag.png') no-repeat;
+    background: #E3E3E3 url('../img/bag.png') no-repeat top right;
+    background-size: cover;
     color: #262D33;
-    border-radius: 3%;
-    margin-right: 30px;
+    padding: 60px 46px 80px 46px;
+    
 }
 
 .offer-2 {
-    max-width: 563px;
-    height: 370px;
-    background: url('../img/sneakers.png') no-repeat;
+    background: #E3E3E3 url('../img/sneakers.png') no-repeat top right;
+    background-size: cover;
     color: #FFFFFF;
-    border-radius: 3%;
+    padding: 60px 46px 80px 46px;
 }
 
 .offer-3 {
-    background: #CCD5E6 url("../img/blouse.png") no-repeat;
+    background: #CCD5E6 url("../img/blouse.png") no-repeat top right 20%;
+    background-size: contain;
+    padding: 35px 46px 60px 46px;
+
+
+}
+
+.offer-4 {
+    background: #FF4F52 url("../img/girl.png") no-repeat top right;
+    background-size: cover;
+
+    padding: 35px 26px 60px 46px;
+
 }
 
 .offer-title {
     font-family: 'Roboto Slab', serif;
-    max-width: 250px;
+    max-width: 222px;
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
-    margin-top: 60px;
-    margin-left: 45px;
-    margin-bottom: 15px;
 }
 
-.offer-1-description {
-    max-width: 180px;
+.offer-title.large {
+    max-width: 420px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.offer-description {
+    max-width: 176px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    margin-left: 45px;
     margin-bottom: 25px;
+    color: #4B5157;
 }
 
-.offer-2-description {
-    max-width: 170px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+.offer-description.light {
     mix-blend-mode: normal;
     opacity: 0.85;
-    margin-left: 45px;
-    margin-bottom: 25px;
 }
 
-.button-offer {
-    margin-left: 49px;
+.offer-description.large {
+    min-width: 320px;
 }
+
+.offer-description.pink {
+    color: #FFC4C9;
+}
+
+.offer-price {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.light {
+    color: #fff;
+}
+
