@@ -138,7 +138,7 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
     background: #FF4F52 url("../img/girl.png") no-repeat top right;
     background-size: cover;
 
-    padding: 35px 26px 60px 46px;
+    padding: 35px 26px 60px 25px;
 
 }
 
@@ -192,3 +192,54 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
     color: #fff;
 }
 
+.arrival-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.goods-view {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #262D33;
+    padding-top: 70px;
+    text-decoration: none;
+}
+
+.product {
+    min-height: 370px;
+    text-align: center;
+    border: 1px solid;
+    padding-top: 30px;
+}
+
+.product-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #262D33;
+    margin-bottom: 0;
+}
+
+.product-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+}
+
+.product-price {
+    font-size: 18px;
+    line-height: 30px;
+    color: #262D33;
+    font-weight: bold;
+}
