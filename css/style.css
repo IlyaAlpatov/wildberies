@@ -54,6 +54,7 @@ header {
 .slide {
     padding-top: 90px;
     padding-bottom: 110px;
+    min-height: 568px;
 }
 .slide-1 {
 background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
@@ -97,6 +98,7 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
+    z-index: 9;
 }
 
 .slider-button {
@@ -136,8 +138,7 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
 
 .offer-4 {
     background: #FF4F52 url("../img/girl.png") no-repeat top right;
-    background-size: cover;
-
+    background-size: contain;
     padding: 35px 26px 60px 25px;
 
 }
@@ -320,4 +321,36 @@ background: #B4D1E0 url("../img/mainImg.png") center right 10% no-repeat;
     font-size: 14px;
     line-height: 20px;
     margin-right: 15px;
+}
+
+@media (max-width: 1200px) {
+    .slide-1 {
+        background-size: cover;
+    }
+
+    .offer-3 {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .slide-title {
+        font-size: 36px;
+        line-height: 1.4;    
+    }
+
+    .offer {
+        background-position: left top;
+        min-height: 300px;
+    }
+
+    .offer-4 {
+        background-position: right top;
+    }
 }
